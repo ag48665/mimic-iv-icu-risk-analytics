@@ -32,4 +32,4 @@
 
 ### ICU Length of Stay Distribution
 
-![Length of Stay](screenshots/length_of_stay.png)
+![Length of Stay](https://raw.githubusercontent.com/ag48665/mimic-iv-icu-risk-analytics/main/screenshots/length_of_stay.png)
