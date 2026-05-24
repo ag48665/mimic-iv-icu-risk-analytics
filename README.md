@@ -1,35 +1,53 @@
-## Dashboard & Analytics Preview
+---
 
-### Mortality Rate by ICU Care Unit
+## Key Clinical Insights
 
-![Mortality by ICU Unit](screenshots/mortality_by_icu_unit_result.png)
+### ICU Mortality Analysis
+Patients with higher ICU length of stay demonstrated increased mortality risk, suggesting prolonged critical care utilization may correlate with severe patient outcomes.
+
+### ICU Unit Performance
+Coronary Care Units (CCU) and Neuro Surgical ICU units showed the highest mortality rates among analyzed ICU departments.
+
+### Hospital Utilization Trends
+ICU stay distribution analysis identified variability in resource utilization and patient severity across care units.
+
+### Diagnosis Analysis
+Top diagnosis categories represented the majority of ICU admissions, highlighting potential areas for operational optimization and risk monitoring.
 
 ---
 
-### ICU Length of Stay by Mortality Outcome
+## Technical Skills Demonstrated
 
-![ICU LOS by Mortality](screenshots/icu_los_by_mortality_result.png)
-
----
-
-### Top Diagnoses in ICU Admissions
-
-![Top Diagnoses](screenshots/top_diagnoses_result.png)
-
----
-
-### ICU Unit Utilization Analysis
-
-![ICU Unit Analysis](screenshots/icu_unit_analysis_result.png)
+- SQL joins and aggregations
+- Clinical KPI analysis
+- Healthcare risk analytics
+- SQLite database management
+- Exploratory Data Analysis (EDA)
+- Healthcare data visualization
+- Real-world clinical data processing
+- GitHub project documentation
+- Analytical storytelling
 
 ---
 
-### Overall Mortality Analysis
+## Future Improvements
 
-![Mortality Rate](screenshots/mortality_rate_result.png)
+Planned future enhancements include:
+
+- Predictive mortality modeling
+- ICU readmission prediction
+- Power BI dashboard integration
+- Time-series ICU trend analysis
+- Machine learning risk scoring
+- Dockerized analytics pipeline
+- Automated ETL workflows
 
 ---
 
-### ICU Length of Stay Distribution
+## Disclaimer
 
-![Length of Stay](https://raw.githubusercontent.com/ag48665/mimic-iv-icu-risk-analytics/main/screenshots/length_of_stay.png)
+This project uses the publicly available MIMIC-IV Demo dataset for educational and portfolio purposes only.
+
+No protected health information (PHI) is included.
+
+---
