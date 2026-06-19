@@ -184,7 +184,7 @@ LIMIT 10;
 
 ### ICU Mortality Analysis
 
-Patients with higher ICU length of stay demonstrated increased mortality risk, suggesting prolonged critical care utilization may correlate with severe patient outcomes.
+Longer ICU stays were associated with higher observed mortality rates in the analyzed cohort.
 
 ### ICU Unit Performance
 
@@ -234,8 +234,7 @@ mimic-iv-icu-risk-analytics/
 ## Data Source
 
 MIMIC-IV Clinical Database Demo Dataset:
-
-https://physionet.org/content/mimic-iv-demo/2.2/
+Source: PhysioNet MIMIC-IV Demo Dataset (v2.2)
 
 ---
 
@@ -282,6 +281,33 @@ This project can support:
 - Pandas
 - Matplotlib
 - SQLite
+
+---
+## How to Run
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Create SQLite database
+
+```bash
+python src/load_to_sqlite.py
+```
+
+### Run exploratory analysis
+
+```bash
+python src/mimic_eda.py
+```
+
+### Execute SQL analytics
+
+```bash
+sqlite3 database/mimic_icu.db < sql/icu_kpi_analysis.sql
+```
 
 ---
 
