@@ -41,6 +41,21 @@ Healthcare analytics and ICU risk analysis project using real-world MIMIC-IV cli
 ![Top Diagnoses](screenshots/top_diagnoses_result.png)
 
 ---
+## Main Findings
+
+### Mortality varies substantially across ICU units
+
+Mortality analysis identified meaningful differences between ICU departments, highlighting potential variation in patient severity and clinical outcomes.
+
+### Longer ICU stays are associated with increased mortality
+
+Length-of-stay analysis demonstrated a relationship between prolonged ICU utilization and adverse outcomes.
+
+### A small number of diagnoses account for a large proportion of ICU admissions
+
+Diagnosis frequency analysis identified major clinical categories driving ICU resource utilization.
+
+---
 
 ## Project Overview
 
@@ -58,7 +73,25 @@ The project demonstrates:
 - Healthcare business intelligence reporting
 
 ---
+## Project Highlights
 
+✔ Analysis of real-world MIMIC-IV clinical data
+
+✔ ICU mortality analytics
+
+✔ Length-of-stay (LOS) analysis
+
+✔ Healthcare KPI reporting
+
+✔ SQL-based clinical analytics
+
+✔ Python exploratory data analysis
+
+✔ Clinical data visualization
+
+✔ Reproducible healthcare analytics workflow
+
+---
 ## Technologies Used
 
 - Python
@@ -221,16 +254,36 @@ This project can support:
 ---
 
 ## Technical Skills Demonstrated
+## Skills Demonstrated
 
-- SQL joins and aggregations
-- Clinical KPI analysis
-- Healthcare risk analytics
-- SQLite database management
-- Exploratory Data Analysis (EDA)
-- Healthcare data visualization
-- Real-world clinical data processing
-- GitHub project documentation
-- Analytical storytelling
+### Healthcare Analytics
+
+- ICU KPI monitoring
+- Mortality analysis
+- Clinical outcome reporting
+- Resource utilization analysis
+
+### Data Engineering
+
+- SQL querying
+- Database design
+- SQLite
+- Data extraction and transformation
+
+### Data Science
+
+- Exploratory data analysis
+- Statistical summarization
+- Data visualization
+- Analytical reporting
+
+### Tools
+
+- Python
+- SQL
+- Pandas
+- Matplotlib
+- SQLite
 
 ---
 
@@ -278,8 +331,20 @@ https://github.com/ag48665/sql-data-analysis-portfolio
 
 ## Author
 
-Agata Gabara
+**Agata Gabara**
 
-Bioinformatics | Healthcare Analytics | SQL | Python | Power BI | Data Analytics | Clinical Analytics
+Incoming MSc Bioinformatics Student
+
+Research Interests:
+
+- Clinical Informatics
+- Healthcare Analytics
+- Cancer Genomics
+- Computational Biology
+- Data Science for Healthcare
+
+GitHub: https://github.com/ag48665
+
+LinkedIn: https://www.linkedin.com/in/agatha-gabara-06494a37/
 
 ---
