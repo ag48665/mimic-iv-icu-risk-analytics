@@ -4,6 +4,59 @@ Healthcare analytics and ICU risk analysis project using real-world MIMIC-IV cli
 
 ---
 
+## Project Overview
+
+This project analyzes real-world ICU and hospital admissions data from the MIMIC-IV clinical database.
+
+The project demonstrates:
+
+* Healthcare analytics
+* ICU KPI monitoring
+* Mortality analysis
+* Clinical SQL analytics
+* Healthcare data engineering
+* Python exploratory data analysis (EDA)
+* Healthcare data visualization
+* Healthcare business intelligence reporting
+
+---
+
+## Project Highlights
+
+✔ Analysis of real-world MIMIC-IV clinical data
+
+✔ ICU mortality analytics
+
+✔ Length-of-stay (LOS) analysis
+
+✔ Healthcare KPI reporting
+
+✔ SQL-based clinical analytics
+
+✔ Python exploratory data analysis
+
+✔ Clinical data visualization
+
+✔ Reproducible healthcare analytics workflow
+
+---
+
+## Main Findings
+
+### Mortality varies substantially across ICU units
+
+Mortality analysis identified meaningful differences between ICU departments, highlighting potential variation in patient severity and clinical outcomes.
+
+### Longer ICU stays are associated with increased mortality
+
+Longer ICU stays were associated with higher observed mortality rates in the analyzed cohort.
+
+### A small number of diagnoses account for a large proportion of ICU admissions
+
+Diagnosis frequency analysis identified major clinical categories driving ICU resource utilization.
+
+---
+
 ## Dashboard & Analytics Preview
 
 ### Overall Mortality Analysis
@@ -41,68 +94,18 @@ Healthcare analytics and ICU risk analysis project using real-world MIMIC-IV cli
 ![Top Diagnoses](screenshots/top_diagnoses_result.png)
 
 ---
-## Main Findings
 
-### Mortality varies substantially across ICU units
-
-Mortality analysis identified meaningful differences between ICU departments, highlighting potential variation in patient severity and clinical outcomes.
-
-### Longer ICU stays are associated with increased mortality
-
-Length-of-stay analysis demonstrated a relationship between prolonged ICU utilization and adverse outcomes.
-
-### A small number of diagnoses account for a large proportion of ICU admissions
-
-Diagnosis frequency analysis identified major clinical categories driving ICU resource utilization.
-
----
-
-## Project Overview
-
-This project analyzes real-world ICU and hospital admissions data from the MIMIC-IV clinical database.
-
-The project demonstrates:
-
-- Healthcare analytics
-- ICU KPI monitoring
-- Mortality analysis
-- Clinical SQL analytics
-- Healthcare data engineering
-- Python exploratory data analysis (EDA)
-- Healthcare data visualization
-- Healthcare business intelligence reporting
-
----
-## Project Highlights
-
-✔ Analysis of real-world MIMIC-IV clinical data
-
-✔ ICU mortality analytics
-
-✔ Length-of-stay (LOS) analysis
-
-✔ Healthcare KPI reporting
-
-✔ SQL-based clinical analytics
-
-✔ Python exploratory data analysis
-
-✔ Clinical data visualization
-
-✔ Reproducible healthcare analytics workflow
-
----
 ## Technologies Used
 
-- Python
-- SQL
-- SQLite
-- Pandas
-- Matplotlib
-- Healthcare Analytics
-- MIMIC-IV Clinical Database
-- Data Visualization
-- Clinical Data Analysis
+* Python
+* SQL
+* SQLite
+* Pandas
+* Matplotlib
+* Healthcare Analytics
+* MIMIC-IV Clinical Database
+* Data Visualization
+* Clinical Data Analysis
 
 ---
 
@@ -110,30 +113,50 @@ The project demonstrates:
 
 ### ICU KPI Analysis
 
-- Total ICU stays
-- Average ICU length of stay
-- ICU utilization analysis
-- ICU care unit analysis
+* Total ICU stays
+* Average ICU length of stay
+* ICU utilization analysis
+* ICU care unit analysis
 
 ### Mortality Analytics
 
-- Hospital mortality rate
-- Mortality distribution analysis
-- Clinical outcome monitoring
+* Hospital mortality rate
+* Mortality distribution analysis
+* Clinical outcome monitoring
 
 ### Healthcare SQL Analytics
 
-- Admissions analysis
-- Patient analysis
-- ICU stay analysis
-- Clinical KPI reporting
+* Admissions analysis
+* Patient analysis
+* ICU stay analysis
+* Clinical KPI reporting
 
 ### Python EDA
 
-- ICU LOS distribution
-- Mortality visualization
-- ICU unit utilization charts
-- Diagnosis trend analysis
+* ICU LOS distribution
+* Mortality visualization
+* ICU unit utilization charts
+* Diagnosis trend analysis
+
+---
+
+## Key Clinical Insights
+
+### ICU Mortality Analysis
+
+Longer ICU stays were associated with higher observed mortality rates in the analyzed cohort.
+
+### ICU Unit Performance
+
+Coronary Care Units (CCU) and Neuro Surgical ICU units showed the highest mortality rates among analyzed ICU departments.
+
+### Hospital Utilization Trends
+
+ICU stay distribution analysis identified variability in resource utilization and patient severity across care units.
+
+### Diagnosis Analysis
+
+Top diagnosis categories represented the majority of ICU admissions, highlighting potential areas for operational optimization and risk monitoring.
 
 ---
 
@@ -180,26 +203,6 @@ LIMIT 10;
 
 ---
 
-## Key Clinical Insights
-
-### ICU Mortality Analysis
-
-Longer ICU stays were associated with higher observed mortality rates in the analyzed cohort.
-
-### ICU Unit Performance
-
-Coronary Care Units (CCU) and Neuro Surgical ICU units showed the highest mortality rates among analyzed ICU departments.
-
-### Hospital Utilization Trends
-
-ICU stay distribution analysis identified variability in resource utilization and patient severity across care units.
-
-### Diagnosis Analysis
-
-Top diagnosis categories represented the majority of ICU admissions, highlighting potential areas for operational optimization and risk monitoring.
-
----
-
 ## Repository Structure
 
 ```text
@@ -231,58 +234,6 @@ mimic-iv-icu-risk-analytics/
 
 ---
 
-## Data Source
-
-MIMIC-IV Clinical Database Demo Dataset:
-Source: PhysioNet MIMIC-IV Demo Dataset (v2.2)
-
----
-
-## Business Use Cases
-
-This project can support:
-
-- ICU operational monitoring
-- Healthcare KPI reporting
-- Mortality risk analysis
-- Hospital resource utilization
-- Clinical analytics
-- Healthcare business intelligence
-- Executive healthcare reporting
-
----
-## Skills Demonstrated
-
-### Healthcare Analytics
-
-- ICU KPI monitoring
-- Mortality analysis
-- Clinical outcome reporting
-- Resource utilization analysis
-
-### Data Engineering
-
-- SQL querying
-- Database design
-- SQLite
-- Data extraction and transformation
-
-### Data Science
-
-- Exploratory data analysis
-- Statistical summarization
-- Data visualization
-- Analytical reporting
-
-### Tools
-
-- Python
-- SQL
-- Pandas
-- Matplotlib
-- SQLite
-
----
 ## How to Run
 
 ### Install dependencies
@@ -311,17 +262,72 @@ sqlite3 database/mimic_icu.db < sql/icu_kpi_analysis.sql
 
 ---
 
+## Data Source
+
+Source: PhysioNet MIMIC-IV Demo Dataset (v2.2)
+
+MIMIC-IV is a publicly available critical care database containing de-identified clinical data from intensive care unit admissions.
+
+---
+
+## Business Use Cases
+
+This project can support:
+
+* ICU operational monitoring
+* Healthcare KPI reporting
+* Mortality risk analysis
+* Hospital resource utilization
+* Clinical analytics
+* Healthcare business intelligence
+* Executive healthcare reporting
+
+---
+
+## Skills Demonstrated
+
+### Healthcare Analytics
+
+* ICU KPI monitoring
+* Mortality analysis
+* Clinical outcome reporting
+* Resource utilization analysis
+
+### Data Engineering
+
+* SQL querying
+* Database design
+* SQLite
+* Data extraction and transformation
+
+### Data Science
+
+* Exploratory data analysis
+* Statistical summarization
+* Data visualization
+* Analytical reporting
+
+### Tools
+
+* Python
+* SQL
+* Pandas
+* Matplotlib
+* SQLite
+
+---
+
 ## Future Improvements
 
 Planned future enhancements include:
 
-- Predictive mortality modeling
-- ICU readmission prediction
-- Power BI dashboard integration
-- Time-series ICU trend analysis
-- Machine learning risk scoring
-- Dockerized analytics pipeline
-- Automated ETL workflows
+* Predictive mortality modeling
+* ICU readmission prediction
+* Power BI dashboard integration
+* Time-series ICU trend analysis
+* Machine learning risk scoring
+* Dockerized analytics pipeline
+* Automated ETL workflows
 
 ---
 
@@ -361,11 +367,11 @@ Incoming MSc Bioinformatics Student
 
 Research Interests:
 
-- Clinical Informatics
-- Healthcare Analytics
-- Cancer Genomics
-- Computational Biology
-- Data Science for Healthcare
+* Clinical Informatics
+* Healthcare Analytics
+* Cancer Genomics
+* Computational Biology
+* Data Science for Healthcare
 
 GitHub: https://github.com/ag48665
 
