@@ -252,8 +252,6 @@ This project can support:
 - Executive healthcare reporting
 
 ---
-
-## Technical Skills Demonstrated
 ## Skills Demonstrated
 
 ### Healthcare Analytics
